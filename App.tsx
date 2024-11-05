@@ -13,8 +13,7 @@ import Screens from './navigation/Screens';
 
 if (DeviceInfo.isTablet()) Orientation.lockToLandscape();
 
-const App = (props) => {
-
+function App(props): React.JSX.Element {
   useEffect(() => {
     SplashScreen.hide();
   }, []);
